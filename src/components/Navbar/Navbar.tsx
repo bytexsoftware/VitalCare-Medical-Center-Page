@@ -3,16 +3,16 @@ import React from 'react';
 const Navbar: React.FC = () => {
   return (
     <nav className="w-full bg-white shadow-md">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-2 py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <img 
-            src="/src/assets/images/Logo.png" 
-            alt="Vital Care Medical Center" 
-            className="h-16 w-16 rounded-full border-2 border-[#2196f3] shadow-md" // Logo redondo con borde y sombra
+          <img
+            src="/src/assets/images/Logo.png"
+            alt="Vital Care Medical Center"
+            className="h-12 w-auto" // Ajusta el tamaño del logo aquí
           />
           <span className="ml-4 text-[#003785] text-xl font-bold">
-            Vital Care
+            VitalCare Medical Center
           </span>
         </div>
 
