@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import PricingPlans from './components/PricingPlans/PricingPlans';
 import Security from './components/Security/Security';
 import Testimonials from './components/Testimonials/Testimonials';
+import ServiciosMedicos from './components/ServiciosMedicos/ServiciosMedicos';
 
 
 
@@ -15,12 +16,11 @@ function App() {
       <Header />
       <AboutUs />
       <Security />
+      <ServiciosMedicos />
       <PricingPlans />
-      <Testimonials />
-     
+      <Testimonials />     
     </div>
   );
 }
-import { Import } from 'lucide-react';
 
 export default App;

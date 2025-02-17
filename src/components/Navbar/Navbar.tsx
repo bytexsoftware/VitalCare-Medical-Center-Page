@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navbar: React.FC = () => {
+
   return (
     <nav className="w-full bg-gray-100 shadow-md">
       <div className="container mx-auto px-2 py-2 flex justify-between items-center">
