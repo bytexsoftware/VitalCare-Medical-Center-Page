@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
-    <header className="relative bg-gradient-to-r from-[#f8f9fa] to-[#e9ecef] overflow-hidden">
+    <header className="relative bg-gray-100 overflow-hidden">
       <div className="container mx-auto px-6 py-16 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Texto del encabezado */}
