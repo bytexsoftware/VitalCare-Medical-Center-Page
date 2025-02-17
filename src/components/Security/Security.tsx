@@ -2,7 +2,7 @@ import React from 'react';
 
 const Security = () => {
   return (
-    <div className="w-full">
+    <div className="bg-gray-100 py-20 px-6 shadow-lg">
       <div className="text-center mb-6">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           <span className="text-[#2196f3]">Seguridad y Cumplimiento</span>
@@ -10,9 +10,7 @@ const Security = () => {
       </div>
       
       <div className="flex items-start gap-2 p-4">
-        <button className="text-gray-500 mt-1">
-          -
-        </button>
+        <button className="text-gray-500 mt-1">-</button>
         <div className="w-full">
           <div className="mt-2 bg-white p-4 border border-gray-200">
             <div className="text-[#003785] space-y-6">

@@ -4,6 +4,8 @@ import Header from './components/Header/Header';
 import AboutUs from './components/AboutUs/AboutUs';
 import PricingPlans from './components/PricingPlans/PricingPlans';
 import Security from './components/Security/Security';
+import Testimonials from './components/Testimonials/Testimonials';
+
 
 
 function App() {
@@ -12,10 +14,13 @@ function App() {
       <Navbar />
       <Header />
       <AboutUs />
-      <PricingPlans />
       <Security />
+      <PricingPlans />
+      <Testimonials />
+     
     </div>
   );
 }
+import { Import } from 'lucide-react';
 
 export default App;
