@@ -7,7 +7,7 @@ const ServiciosMedicos: React.FC = () => {
                 <h2 className="text-4xl font-bold text-[#003785] mb-20">🩺 SERVICIOS MEDICOS - VITAL MEDICAL CENTER</h2>
 
                 {/* Contenedor de tarjetas */}
-                <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-16">
                     {/* Tarjeta 1 */}
                     <div className="bg-white p-6 rounded-lg shadow-md w-64 md:w-72">
                         <h2 className="text-xl font-bold">🩺 Consulta General</h2>

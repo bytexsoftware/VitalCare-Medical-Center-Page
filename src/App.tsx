@@ -6,6 +6,8 @@ import PricingPlans from './components/PricingPlans/PricingPlans';
 import Security from './components/Security/Security';
 import Testimonials from './components/Testimonials/Testimonials';
 import ServiciosMedicos from './components/ServiciosMedicos/ServiciosMedicos';
+import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecuentes';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -18,7 +20,9 @@ function App() {
       <Security />
       <ServiciosMedicos />
       <PricingPlans />
+      <PreguntasFrecuentes />
       <Testimonials />     
+      <Footer />
     </div>
   );
 }
