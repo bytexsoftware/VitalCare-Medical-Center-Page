@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import ServiciosMedicos from './components/ServiciosMedicos/ServiciosMedicos';
 import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecuentes';
 import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -20,7 +21,8 @@ function App() {
       <Security />
       <PricingPlans />
       <PreguntasFrecuentes />
-      <Testimonials />     
+      <Contact />
+      <Testimonials />          
       <Footer />
     </div>
   );
