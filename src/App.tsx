@@ -8,7 +8,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import ServiciosMedicos from './components/ServiciosMedicos/ServiciosMedicos';
 import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecuentes';
 import Footer from './components/Footer/Footer';
-
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -21,10 +21,12 @@ function App() {
       <ServiciosMedicos />
       <PricingPlans />
       <PreguntasFrecuentes />
-      <Testimonials />     
+      <Testimonials /> 
+      <Contact />         
       <Footer />
     </div>
   );
 }
+
 
 export default App;
