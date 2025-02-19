@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Header />
       <AboutUs />
-      <Security />
       <ServiciosMedicos />
+      <Security />
       <PricingPlans />
       <PreguntasFrecuentes />
       <Testimonials />     
