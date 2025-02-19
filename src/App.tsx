@@ -10,7 +10,6 @@ import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecu
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 
-
 function App() {
   return (
     <div className="min-h-screen">
