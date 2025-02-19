@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
             
             <p className="flex items-center">
               <MapPin className="text-[#2196f3] w-6 h-6 mr-3" />
-              <strong>Dirección:</strong> Carrera 15 #45-10, Bogotá, Colombia
+              <strong>Dirección: </strong> Carrera 15 #45-10, Bogotá, Colombia
             </p>
             
             <p className="flex items-center">
