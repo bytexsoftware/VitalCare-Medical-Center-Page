@@ -8,7 +8,8 @@ import ServiciosMedicos from './components/ServiciosMedicos/ServiciosMedicos';
 import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecuentes';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
-
+import AppDownload from './components/AppDownload/AppDownload';
+import Blog from './components/Blog/Blog';
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
       <PricingPlans />
       <PreguntasFrecuentes />
       <Contact />
-      <Testimonials />          
+      <Testimonials />
+      <Blog />
+      <AppDownload />                    
       <Footer />
     </div>
   );
